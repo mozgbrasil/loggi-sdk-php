@@ -90,6 +90,5 @@ Quando finalizado o pedido é armazenado no historico as dimensões da caixa que
 [![License](https://poser.pugx.org/mozgbrasil/loggi-sdk-php/license)](https://packagist.org/packages/mozgbrasil/loggi-sdk-php)
 [![Monthly Downloads](https://poser.pugx.org/mozgbrasil/loggi-sdk-php/d/monthly)](https://packagist.org/packages/mozgbrasil/loggi-sdk-php)
 [![Daily Downloads](https://poser.pugx.org/mozgbrasil/loggi-sdk-php/d/daily)](https://packagist.org/packages/mozgbrasil/loggi-sdk-php)
-[![Build Status](https://travis-ci.org/mozgbrasil/loggi-sdk-php.svg?branch=master)](https://travis-ci.org/mozgbrasil/loggi-sdk-php)
 
 :cat2:
