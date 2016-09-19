@@ -37,11 +37,9 @@ Autoloading compatível é [PSR-4][psr4]
 
 ## Perguntas mais frequentes "FAQ"
 
-### Como conferir os valores dos fretes junto a transportada
+### Simulação de transação
 
-Você pode visualizar no log os parâmetros enviado a transportada
-
-Quando finalizado o pedido é armazenado no historico as dimensões da caixa que foi usada para o obter o frete
+Podemos executar o comando curl via terminal ou pelo seguinte serviço http://onlinecurl.com/
 
 ### Requisição de Orçamentos
 

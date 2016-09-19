@@ -70,13 +70,13 @@ class ApiService
      * @return -
      * @throws \Exception
      */
-    public function orcamento($parameters)
+    public function execute($parameters)
     {
 
         $this->debugData[] = __METHOD__;
 
         $method = 'POST';
-        $uri = $this->config['apiUri'] . '/api/v1/endereco/orcamento/';
+        $uri = $this->config['apiUri'];
         $options = [
             'body' => \json_encode($parameters),
             'headers' => $this->headers
