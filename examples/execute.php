@@ -20,14 +20,14 @@ exit;
 // 19/09/2016
 // http://api.docs.dev.loggi.com/
 
-use Mozg\Loggi\ApiService;
+use Mozg\Loggi\HttpService;
 
 //
 
 $waypoints[] = [
     'by' => 'cep',
     'query' => [
-        'cep' => '05135400',
+        'cep' => '08215430',
         'number' => '77',
         'instructions' => 'Retirar pacote 182 com Maria.'
     ]
@@ -79,11 +79,17 @@ echo '<h2>json</h2>';
 
 echo '<h2>ApiService->orcamento</h2>';
 
-$service = new ApiService($service);
+$service = new HttpService($service);
 $response = $service->execute($request);
 
 //
 
 echo '<h2>response</h2>';
 
-\Zend\Debug\Debug::dump($response);
+\Zend\Debug\Debug::dump($response['pricing']['total_cm']);
+
+$var = $response;
+$forceType = "";
+$bCollapsed = false;
+$showHeader = true;
+new \Ospinto\dBug(array($var,$forceType,$bCollapsed,$showHeader));

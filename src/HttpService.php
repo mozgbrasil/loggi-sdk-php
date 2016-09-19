@@ -18,7 +18,7 @@ class HttpStatus
     const NotFound = 404;
 }
 
-class ApiService
+class HttpService
 {
 
     /**
