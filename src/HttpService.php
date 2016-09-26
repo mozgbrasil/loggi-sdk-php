@@ -70,21 +70,25 @@ class HttpService
      * @return -
      * @throws \Exception
      */
-    public function execute($parameters)
+    public function execute($method, $parameters)
     {
 
         $this->debugData[] = __METHOD__;
 
-        $method = 'POST';
+        //$method = 'POST';
         $uri = $this->config['apiUri'];
         $options = [
-            'body' => \json_encode($parameters),
+            //'body' => !empty($parameters) ? \json_encode($parameters) : '',
             'headers' => $this->headers
         ];
 
+        if(!empty($parameters)){
+            $options['body'] = \json_encode($parameters);
+        }
+
         $this->debugData[][__LINE__]['method'] = $method;
         $this->debugData[][__LINE__]['uri'] = $uri;
-        $this->debugData[][__LINE__]['options'] = $uri;
+        $this->debugData[][__LINE__]['options'] = $options;
 
         try {
 
