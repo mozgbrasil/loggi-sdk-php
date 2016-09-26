@@ -4,12 +4,13 @@
 [requirements]: http://mozgbrasil.github.io/requirements/
 [getcomposer]: https://getcomposer.org/
 [uninstall-mods]: https://getcomposer.org/doc/03-cli.md#remove
+[url-method]: https://www.loggi.com/contas/criar/GH5THM/
 
 # Mozg\LoggiSdkPhp
 
 ## Sinopse
 
-SDK de integração a Loggi
+SDK de integração a [Loggi][url-method]
 
 ## Instalação - Atualização - Desinstalação
 
