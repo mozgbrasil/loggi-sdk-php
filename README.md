@@ -1,7 +1,6 @@
 ![valid XHTML][checkmark]
 [checkmark]: https://raw.githubusercontent.com/mozgbrasil/mozgbrasil.github.io/master/assets/images/logos/Red_star_32_32.png "MOZG"
 [psr4]: http://www.php-fig.org/psr/psr-4/
-[requirements]: http://mozgbrasil.github.io/requirements/
 [getcomposer]: https://getcomposer.org/
 [uninstall-mods]: https://getcomposer.org/doc/03-cli.md#remove
 [url-method]: https://www.loggi.com/contas/criar/GH5THM/
