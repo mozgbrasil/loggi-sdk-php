@@ -88,5 +88,7 @@ Podemos executar o comando curl via terminal ou pelo seguinte serviço http://on
 [![License](https://poser.pugx.org/mozgbrasil/loggi-sdk-php/license)](https://packagist.org/packages/mozgbrasil/loggi-sdk-php)
 [![Monthly Downloads](https://poser.pugx.org/mozgbrasil/loggi-sdk-php/d/monthly)](https://packagist.org/packages/mozgbrasil/loggi-sdk-php)
 [![Daily Downloads](https://poser.pugx.org/mozgbrasil/loggi-sdk-php/d/daily)](https://packagist.org/packages/mozgbrasil/loggi-sdk-php)
+[![Reference Status](https://www.versioneye.com/php/mozgbrasil:loggi-sdk-php/reference_badge.svg?style=flat-square)](https://www.versioneye.com/php/mozgbrasil:loggi-sdk-php/references)
+[![Dependency Status](https://www.versioneye.com/php/mozgbrasil:loggi-sdk-php/1.0.0/badge?style=flat-square)](https://www.versioneye.com/php/mozgbrasil:loggi-sdk-php/1.0.0)
 
 :cat2:
