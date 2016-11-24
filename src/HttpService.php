@@ -45,7 +45,7 @@ class HttpService
      * ApiService constructor.
      * @param array $options
      */
-    function __construct($options = [])
+    public function __construct($options = [])
     {
 
         $this->debugData[] = __METHOD__;
